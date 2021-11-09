@@ -1,7 +1,11 @@
 #inputForm {
-    width: 45%;
+    width: 33%;
     text-align: center;
     margin: auto;
+    border: 3px solid grey;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
 }
 
 .inDiv {
