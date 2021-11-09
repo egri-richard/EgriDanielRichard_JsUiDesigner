@@ -1,0 +1,41 @@
+#inputForm {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+.inDiv {
+    margin-bottom: 5px;
+}
+
+#preview {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#outDiv {
+    width: 33%;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+input {
+    width: 50%;
+}
+
+#submitDiv {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.hide {
+    
+    visibility: hidden;
+}
+
+.show {
+    color: red;
+    visibility: show;
+}

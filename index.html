@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>UI designer segítő</title>
+</head>
+<body>
+    <div id="inputForm">
+        <form>
+            <div class="inDiv">
+                <label for="textIn">Mintaszöveg:</label><br>
+                <input id="textIn" type="text"><br>
+                <span id="txtErrorMsg" class="hide">A szöveg mezőt ne hagyja üresen!</span>
+            </div>
+
+            <div class="inDiv">
+                <label for="sizeIn">Betűméret:</label><br>
+                <input id="sizeIn" type="number">
+            </div>
+
+            <div class="inDiv">
+                <label for="textColorIn">Betűszín:</label><br>
+                <input id="textColorIn" type="color">
+            </div>
+
+            <div class="inDiv">
+                <label for="bgColorIn">Háttérszín:</label><br>
+                <input id="bgColorIn" type="color" value="#ffffff">
+            </div>
+
+            <div id="submitDiv">
+                <input id="submitBtn" type="button" value="Alaphelyzet">
+            </div>
+        </form>
+    </div>
+
+    <h3 id="preview">Előnézet:</h3>
+
+    <div id="outDiv"></div>
+</body>
+</html>
